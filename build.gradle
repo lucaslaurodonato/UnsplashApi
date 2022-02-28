@@ -1,0 +1,51 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        compose_version = '1.0.0'
+        kotlin_version = '1.5.10'
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.4"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:2.38.1"
+        classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+ext {
+
+    //Android components
+    ktxCore = "1.7.0"
+    appCompat = "1.4.1"
+    material = "1.5.0"
+    lifecycle = "2.4.1"
+    compose = "1.4.0"
+
+    // Compose Navigation
+    composeNavigation = "2.4.0-rc01"
+
+    // Retrofit
+    retrofit = "2.9.0"
+
+    // KotlinX Serialization
+    jsonSerialization = "1.3.0"
+
+    // Room components
+    room = "2.4.0"
+
+    // Paging 3.0
+    pagingCompose = "1.0.0-alpha14"
+
+    // Coil
+    coil = "1.3.2"
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
