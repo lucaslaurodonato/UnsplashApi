@@ -3,7 +3,7 @@
 
 ### **<h4>App made just to study some new technologies on android</h4>**
 
-<img src="https://user-images.githubusercontent.com/47648982/156232251-0c146974-ed3a-416a-9a54-618fd8666b34.png" width="20%" style="max-width:40%;"/><img src="https://user-images.githubusercontent.com/47648982/156232290-d8ef9e3b-d851-4184-8c20-888cfc0e3167.png" width="20%" style="max-width:40%;"/> 
+<img src="https://user-images.githubusercontent.com/47648982/156232251-0c146974-ed3a-416a-9a54-618fd8666b34.png" hspace="10" width="20%" style="max-width:40%;"/><img src="https://user-images.githubusercontent.com/47648982/156232290-d8ef9e3b-d851-4184-8c20-888cfc0e3167.png" width="20%" style="max-width:40%;"/> 
 
 <h1>:page_with_curl:Api Documentation</h1>
 <a href="https://unsplash.com/documentation" rel="nofollow"> Documentation </a>
